@@ -1,0 +1,100 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+/*Barra de cima*/
+.barra-up{
+    display: inline-block;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    position: fixed;
+}
+
+/*Botão da Barra de cima*/
+.barra-up button{
+    height: 100%;
+    width: 120px;
+    border-radius: 25px;
+    border: none;
+}
+
+/*Hover dos botões*/
+.barra-up button:hover{
+    height: 100%;
+    width: 120px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    transition: 0.3s ease;
+    border: none;
+}
+
+/*Background com foto da academia*/
+.imagem{
+    background-image: url(https://www.fiberoficial.com.br/cdn/shop/articles/academia_musculacao.jpg?v=1687444110&width=2048);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+    width: 100%;
+    height: 945px;
+}
+
+/*Logo da academia*/
+.camada img{
+    margin: 50px 43% 0 43%;
+    padding: 10px 0 10px 0;
+    width: 215px;
+    height: 215px;
+    border-radius: 100%;
+}
+
+/*Texto acompanhante da logo da academia*/
+.imagem h1{
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    position: static;
+    margin: -90px 0 -90px 20%;
+    font-size: 100px;
+}
+
+/*Botão acompanhate do texto acompanhado da logo da academia*/
+.imagem button{
+    position: static;
+    margin: 0 43% 0 43%;
+    width: 210px;
+    height: 50px;
+    background-color: rgba(79, 79, 141, 0);
+    border: solid 4px rgb(121, 121, 218);
+    color: white;
+    border-radius: 25px;
+}
+
+/*Hover do botão do acompanhante*/
+.imagem button:hover{
+    position: static;
+    margin: 0 43% 0 43%;
+    width: 210px;
+    height: 50px;
+    background-color: rgb(71, 71, 196);
+    transition: 0.2s ease;
+    border: solid 4px rgb(121, 121, 218);
+    color: white;
+    border-radius: 25px;
+}
+
+/*Botão do whats*/
+.whats button{
+    background-image: url(https://images.huffingtonpost.com/2015-08-21-1440138242-5865807-bazingasheldon-thumb.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    position: fixed;
+    margin: 28% 94% 28% 94%;
+    width: 100px;
+    height: 100px;
+}
